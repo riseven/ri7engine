@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ri7database" />
+		<Option pch_mode="0" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="..\..\lib\libri7database.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="2" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="default;" />
+		</VirtualTargets>
+		<Unit filename="..\..\src\ri7database\ri7database.cpp" />
+		<Unit filename="..\..\src\ri7database\ri7database.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\alter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\analyze.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\attach.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\btmutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\btree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\btree.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\btreeInt.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\build.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\callback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\complete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\date.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\expr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fault.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_hash.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_icu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_porter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_tokenizer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_tokenizer.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\fts3_tokenizer1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\func.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\hash.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\insert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\journal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\keywordhash.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\legacy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\loadext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\malloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mem1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mem2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mem3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mem4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mutex.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\mutex_os2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mutex_unix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\mutex_w32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\opcodes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\opcodes.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\os.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\os.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\os_common.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\os_os2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\os_unix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\os_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\pager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\pager.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\parse.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\pragma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\prepare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\printf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\select.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\sqlite3.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\sqlite3ext.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\sqliteInt.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\sqliteLimit.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\tokenize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\trigger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\utf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vacuum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbe.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\vdbeInt.h" />
+		<Unit filename="..\..\src\ri7database\sqlite\vdbeapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbeaux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbeblob.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbefifo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vdbemem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\vtab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\sqlite\where.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\..\src\ri7database\table.cpp" />
+		<Unit filename="..\..\src\ri7database\table.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="Pong1"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="default">
+				<Option output="..\..\..\..\bin\win32_gcc\Pong1.exe"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+				<Compiler>
+					<Add directory="..\..\..\..\src"/>
+					<Add directory="..\..\..\..\lib"/>
+				</Compiler>
+				<Linker>
+					<Add library="..\..\..\..\lib\libri7graphics.a"/>
+					<Add library="..\..\..\..\lib\libri7net.a"/>
+					<Add library="..\..\..\..\lib\libIrrlicht.a"/>
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add library="..\..\..\..\lib\libri7graphics.a"/>
+			<Add library="..\..\..\..\lib\libri7net.a"/>
+		</Linker>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoBola.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoBola.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoEscenario.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoEscenario.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoPala.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\GraficoPala.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\Jugador.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\Jugador.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\JugadorLocal.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\JugadorLocal.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\main.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+		</Unit>
+		<Unit filename="..\..\..\..\examples\ri7engine\pong1\main.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

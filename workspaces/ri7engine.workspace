@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_workspace_file>
+<CodeBlocks_workspace_file>
+	<Workspace title="ri7Engine">
+		<Project filename="projects\ri7graphics.cbp"/>
+		<Project filename="projects\ri7net.cbp"/>
+		<Project filename="projects\examples\ri7net\client.cbp"/>
+		<Project filename="projects\examples\ri7net\server.cbp"/>
+		<Project filename="projects\examples\ri7graphics\Example01.cbp"/>
+		<Project filename="projects\ri7database.cbp"/>
+		<Project filename="projects\examples\ri7database\DataBaseExample\DataBaseExample.cbp"/>
+		<Project filename="projects\examples\ri7engine\Pong1.cbp" active="1"/>
+	</Workspace>
+</CodeBlocks_workspace_file>
